@@ -23,8 +23,8 @@ function checkTrue(arr){
 // console.log("This is the result", checkTrue(testArray))
 
 
-function  getFirstElement(arr){
-    if(arr && arr.length > 0){
+function getFirstElement(arr){
+    if(arr.length > 0){
         
         return arr[0]
     }
